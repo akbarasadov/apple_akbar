@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* .header {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    text-align: center;
+} */
+
+/* h1 {
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.002em;
+    padding-top: 20px;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 400;
+} */
+
+.button_buy {
+    font-size: 17px;
+    font-weight: 400;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 15px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background: rgba(0, 0, 0, 0);
+    color: #2997ff;
+    border-color: #2997ff;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.model_name {
+    font-size: 28px;
+    line-height: 1.1428571429;
+    font-weight: 600;
+    color: rgb(29, 29, 31);
+    padding-bottom: 10px;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+
+.price {
+    font-size: 17px;
+    line-height: 1.4705882353;
+    font-weight: 600;
+    letter-spacing: -0.022em;
+    padding-top: 25px;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.phones_photo {
+    border-radius: 28px;
+}
+
+.model {
+    text-align: center;
+}
+
+.phones_models {
+    justify-content: space-between;
+    display: flex;
+    /* background-color: black; */
+}
+
+.about {
+    font-size: 17px;
+    line-height: 1.4705882353;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.new {
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #b64400;
+    padding-top: 16px;
+    padding-bottom: 10px;
+}
+
+.explore {
+    font-size: 56px;
+    line-height: 1.0714285714;
+    font-weight: 600;
+    color: rgb(29, 29, 31);
+    padding-bottom: 40px;
+}
+
+
+
+.iphone_17pro .color:nth-child(1) {
+    background-color: #f77e2d;
+    width: 12px;
+    height: 12px;
+    border-radius: 20px;
+    margin-inline: 2px;
+}
+
+.iphone_17pro .color:nth-child(2) {
+    background-color: #32374a;
+    width: 12px;
+    height: 12px;
+    border-radius: 20px;
+    margin-inline: 2px;
+}
+
+.iphone_17pro .color:nth-child(3) {
+    background-color: #e2e2e2;
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 20px;
+    margin-inline: 2px;
+}
+
+.colors {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+body {
+    background-color: #eeeef3;
+}
+
+.video_foto {
+    width: 100%;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.take {
+    font-size: 56px;
+    line-height: 1.0714285714;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: rgb(29,29,31);
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
